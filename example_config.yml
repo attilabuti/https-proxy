@@ -1,0 +1,17 @@
+host: ""
+enable-http: true
+port-http: 80
+enable-https: false
+port-https: 443
+crt-file: "./cert/server.crt"
+key-file: "./cert/server.key"
+enable-auth: false
+username: ""
+password: ""
+timeout-read: 0
+timeout-write: 0
+timeout-dial: 10
+enable-log : false
+log-dir: "./log"
+log-connections: true
+quiet: false
